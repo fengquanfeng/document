@@ -17,6 +17,7 @@ module.exports = {
           ['/html/doctype', 'DOCTYPE'],
           ['/html/html', 'html元素'],
           ['/html/head', 'head元素'],
+          ['/html/text', '文本元素'],
           ['/html/a','a元素'],
         ]
       },
