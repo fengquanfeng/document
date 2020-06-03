@@ -2,7 +2,7 @@
 module.exports = {
   title: '前端文档',
   description: 'HTML,CSS,JS,DOM,BOM,HTTP,JavaScript,MarkDown,git,文档,前端...',
-
+  base:'/docs/',
   markdown: {
     lineNumbers: false
   },
