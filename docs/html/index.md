@@ -12,6 +12,7 @@ HTML是HyperText Markup Language，超文本标记语言的简称。
 
 默认情况下**块级元素**会独占一行。并且一般块级元素可以包含行内元素和其他块级元素  
 
+:::tip
 HTML5开始元素按照内容模型开区分  
 
 1. 元数据型(metadata content)
@@ -21,6 +22,7 @@ HTML5开始元素按照内容模型开区分
 5. 语句型(phrasing content)
 6. 内嵌型(embedded content)
 7. 交互型(interactive content)
+:::
 
 详见[内容分类](https://developer.mozilla.org/zh-CN/docs/Web/Guide/HTML/Content_categories)，有英文阅读能力的小伙伴建议切换到English(US)
 
@@ -45,6 +47,6 @@ HTML5后强调了：
 
 ## 说明
 
-本站**不会**对所有元素进行详细的笔记
+本站**不会**对所有元素进行详细的笔记，不适合纯新手学习html。
 
 可以点击[HTML5元素周期表](http://www.xuanfengge.com/funny/html5/element/)来食用html元素。感谢前辈制作的站点

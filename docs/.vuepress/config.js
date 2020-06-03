@@ -26,6 +26,12 @@ module.exports = {
         path: '/css/',
         children: [
         ]
+      },
+      {
+        title: 'JavaScript',
+        path: '/javascript/',
+        children: [
+        ]
       }
     ]
   }

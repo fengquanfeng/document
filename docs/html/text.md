@@ -16,8 +16,35 @@ h1~h6:表示一级标题~六级标题
 
 ## p元素
 
-`<p>`元素是块级元素
+`<p>`元素是块级元素。  
 
 ```html
 <p>这里表示一个段落</p>
+```
+
+html5中提到`<p>`元素中允许的内容是[语句型(phrasing content)](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/Content_categories#Phrasing_content)
+:::danger
+`<p>`元素内不要出现h1~h6,div等其他块级元素。
+:::
+
+```html
+<p><h1>这里是标题</h1></p>
+
+<!--以上代码会被浏览器解析成  -->
+<p></p>
+<h1>这里是标题</h1>
+<p></p>
+```
+
+```html
+<p>
+  文本文本
+  <div>这里是div</div>
+</p>
+
+<!--以上代码会被浏览器解析成  -->
+<p>文本文本</p>
+<div>这里是div</div>
+<p></p>
+
 ```
