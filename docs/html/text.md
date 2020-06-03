@@ -23,7 +23,7 @@ h1~h6:表示一级标题~六级标题
 ```
 
 html5中提到`<p>`元素中允许的内容是[语句型(phrasing content)](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/Content_categories#Phrasing_content)
-:::danger
+:::danger 禁止
 `<p>`元素内不要出现h1~h6,div等其他块级元素。
 :::
 
@@ -48,3 +48,18 @@ html5中提到`<p>`元素中允许的内容是[语句型(phrasing content)](http
 <p></p>
 
 ```
+
+## span元素
+
+`<span>`元素，是个无语义的元素，一般只是用来设置样式
+
+## pre元素
+
+预格式化元素  
+在html中连续的空白字符（空格，tab，回车），在页面显示是会被折叠成**一个**空格。使用了`<pre>`元素，空白字符将**不会**被折叠成单个空格。  、
+
+既然这种和“展示”相关的显示效果，是不是和CSS有关呢？
+::: tip
+其实pre元素的这种显示效果，是通过CSS中的`white-space:pre`。
+你也可以给`<code>`添加`white-space:pre`样式达到相似的效果
+:::
