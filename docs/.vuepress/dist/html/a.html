@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>a元素 | 前端文档</title>
+    <meta name="generator" content="VuePress 1.5.0">
+    
+    <meta name="description" content="HTML,CSS,JS,DOM,BOM,HTTP,JavaScript,MarkDown,git,文档,前端...">
+    <link rel="preload" href="/assets/css/0.styles.6b7e16bd.css" as="style"><link rel="preload" href="/assets/js/app.db82de29.js" as="script"><link rel="preload" href="/assets/js/2.d6b92aed.js" as="script"><link rel="preload" href="/assets/js/7.1d3e7a56.js" as="script"><link rel="prefetch" href="/assets/js/10.1f9de994.js"><link rel="prefetch" href="/assets/js/11.ac78db53.js"><link rel="prefetch" href="/assets/js/12.fc07f848.js"><link rel="prefetch" href="/assets/js/13.21107f76.js"><link rel="prefetch" href="/assets/js/3.9414d8fd.js"><link rel="prefetch" href="/assets/js/4.d274abbb.js"><link rel="prefetch" href="/assets/js/5.8e2fcbf9.js"><link rel="prefetch" href="/assets/js/6.634612ca.js"><link rel="prefetch" href="/assets/js/8.956797d1.js"><link rel="prefetch" href="/assets/js/9.27346b52.js">
+    <link rel="stylesheet" href="/assets/css/0.styles.6b7e16bd.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/" class="home-link router-link-active"><!----> <span class="site-name">前端文档</span></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <!----></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><!---->  <ul class="sidebar-links"><li><section class="sidebar-group collapsable depth-0"><a href="/html/" class="sidebar-heading clickable router-link-active open"><span>HTML</span> <span class="arrow down"></span></a> <ul class="sidebar-links sidebar-group-items"><li><a href="/html/doctype.html" class="sidebar-link">DOCTYPE</a></li><li><a href="/html/html.html" class="sidebar-link">html元素</a></li><li><a href="/html/head.html" class="sidebar-link">head元素</a></li><li><a href="/html/text.html" class="sidebar-link">文本元素</a></li><li><a href="/html/a.html" aria-current="page" class="active sidebar-link">a元素</a></li></ul></section></li><li><a href="/css/" class="sidebar-link">CSS</a></li><li><a href="/javascript/" class="sidebar-link">JavaScript</a></li></ul> </aside> <main class="page"> <div class="theme-default-content content__default"><h1 id="a元素"><a href="#a元素" class="header-anchor">#</a> a元素</h1> <p><code>&lt;a&gt;</code> 元素（或称锚元素）可以创建通向其他网页、文件、同一页面内的位置、电子邮件地址或任何其他 URL 的超链接。</p> <h2 id="属性"><a href="#属性" class="header-anchor">#</a> 属性</h2> <p><code>&lt;a&gt;</code> 支持<a href="https://developer.mozilla.org/zh-CN/docs/Web/HTML/Global_attributes" target="_blank" rel="noopener noreferrer">全局属性<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a>。</p> <h3 id="href属性"><a href="#href属性" class="header-anchor">#</a> href属性</h3> <p>它指定链接的目标<br>
+属性值可以是绝对url，相对url，锚点（#id）</p> <div class="language-html extra-class"><pre class="language-html"><code><span class="token comment">&lt;!-- 基本用法 --&gt;</span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>a</span> <span class="token attr-name">href</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>https://www.aliyun.com/<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span>阿里云<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>a</span><span class="token punctuation">&gt;</span></span>
+
+<span class="token comment">&lt;!-- 创建一个email链接 --&gt;</span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>a</span> <span class="token attr-name">href</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>mailto:fengqfajax@163.com<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span>Send email to fengqf<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>a</span><span class="token punctuation">&gt;</span></span>
+
+<span class="token comment">&lt;!-- 拨打电话 --&gt;</span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>a</span> <span class="token attr-name">href</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>tel:+123456789<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span>电话<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>a</span><span class="token punctuation">&gt;</span></span>
+
+<span class="token comment">&lt;!-- 链接到锚点--&gt;</span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>a</span> <span class="token attr-name">href</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>#info<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>a</span><span class="token punctuation">&gt;</span></span>
+
+<span class="token comment">&lt;!-- 返回顶部 --&gt;</span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>a</span> <span class="token attr-name">href</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>#<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span>返回顶部<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>a</span><span class="token punctuation">&gt;</span></span>
+</code></pre></div><h3 id="target属性"><a href="#target属性" class="header-anchor">#</a> target属性</h3> <p>默认值：_self<br>
+可取值：_blank,_self,_parent,_top,framename</p> <p>_blank：在新窗口打开,即到一个新的未命名的HTML4窗口或HTML5浏览器上下文<br>
+_self：在相同的框架打开,即当前的响应到同一HTML 4 frame（或HTML5浏览上下文）<br>
+_parent：加载响应到当前框架的HTML4父框架或当前的HTML5浏览上下文的父浏览上下文。如果没parent框架或者浏览上下文，此选项的行为方式相同_self。<br>
+_top：HTML4中加载的响应成完整的，原来的窗口，取消所有其它frame。 HTML5中：加载响应进入顶层浏览上下文（即，浏览上下文，它是当前的一个的祖先，并且没有parent）。如果没有parent框架或者浏览上下文，此选项的行为方式相同_self</p> <div class="language-html extra-class"><pre class="language-html"><code><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>a</span> <span class="token attr-name">target</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>_blank|_self|_parent|_top<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span>
+</code></pre></div><h3 id="download属性"><a href="#download属性" class="header-anchor">#</a> download属性</h3> <p>html5中新增的属性，指定下载链接</p> <div class="language-html extra-class"><pre class="language-html"><code><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>a</span> <span class="token attr-name">download</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>filename<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span>
+</code></pre></div><div class="language-javascript extra-class"><pre class="language-javascript"><code><span class="token comment">/**
+ * 使用download属性将&lt;canvas&gt;保存为PNG
+ * 如果你想允许用户下载一个HTML画布，你可以创建一个下载性和画布数据作为文件URL链接图像
+*/</span>
+<span class="token keyword">var</span> link <span class="token operator">=</span> document<span class="token punctuation">.</span><span class="token function">createElement</span><span class="token punctuation">(</span><span class="token string">'a'</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+link<span class="token punctuation">.</span>innerHTML <span class="token operator">=</span> <span class="token string">'download image'</span><span class="token punctuation">;</span>
+
+link<span class="token punctuation">.</span><span class="token function">addEventListener</span><span class="token punctuation">(</span><span class="token string">'click'</span><span class="token punctuation">,</span> <span class="token keyword">function</span><span class="token punctuation">(</span><span class="token parameter">ev</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    link<span class="token punctuation">.</span>href <span class="token operator">=</span> canvas<span class="token punctuation">.</span><span class="token function">toDataURL</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    link<span class="token punctuation">.</span>download <span class="token operator">=</span> <span class="token string">&quot;mypainting.png&quot;</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span><span class="token punctuation">,</span> <span class="token boolean">false</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+document<span class="token punctuation">.</span>body<span class="token punctuation">.</span><span class="token function">appendChild</span><span class="token punctuation">(</span>link<span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+<span class="token comment">//以上代码来自于MDN zh-CN</span>
+</code></pre></div><div class="custom-block warning"><p class="custom-block-title">WARNING</p> <p>锚点标签常常通过将 href 属性设置为 <code>#</code> 或 <code>javascript:void(0)</code> 来创造一个能阻止页面刷新的伪按钮的方式被滥用。 这些属性值会在拖动 / 复制链接时导致意外行为，在新窗口 / 新标签打开链接，加入书签以及 JavaScript 仍在下载时会出现错误或被禁用。这也会向辅助技术（如屏幕阅读器）传达不正确的语义。在这些情况下，推荐使用 <code>&lt;button&gt;</code> 来代替。通常情况下，您应该只将锚点用于正常的 URL 导航。</p></div></div> <footer class="page-edit"><!----> <!----></footer> <div class="page-nav"><p class="inner"><span class="prev">
+      ←
+      <a href="/html/text.html" class="prev">
+        文本元素
+      </a></span> <span class="next"><a href="/css/">
+        CSS
+      </a>
+      →
+    </span></p></div> </main></div><div class="global-ui"></div></div>
+    <script src="/assets/js/app.db82de29.js" defer></script><script src="/assets/js/2.d6b92aed.js" defer></script><script src="/assets/js/7.1d3e7a56.js" defer></script>
+  </body>
+</html>
