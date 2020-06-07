@@ -9,7 +9,7 @@
 这里试图添加内容
 ```
 
-`<img>`元素是一个[可替换元素]('/others')，所以图片在 IFC,vertical-align 的值是 baseline（默认值），也就是图像和容器的基线对齐。  
+`<img>`元素是一个[可替换元素](/html/others)，所以图片在 IFC,vertical-align 的值是 baseline（默认值），也就是图像和容器的基线对齐。  
 这个时候你将看到图片底部离容器还有一条缝隙。这部分关于基线，IFC，vertical-align 的内容具体会在 CSS 章节阐述。
 
 ## src 属性
