@@ -12,7 +12,7 @@ HTML是HyperText Markup Language，超文本标记语言的简称。
 
 默认情况下**块级元素**会独占一行。并且一般块级元素可以包含行内元素和其他块级元素  
 
-:::tip  
+:::tip  HTML5
 HTML5开始元素按照内容模型开区分  
 
 1. 元数据型(metadata content)
