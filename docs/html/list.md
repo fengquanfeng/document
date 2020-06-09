@@ -134,10 +134,7 @@ start 属性来修改编号起始值，属性值是数字，即便你的列表�
     <dt>Mozilla Firefox</dt>
     <dt>Fx</dt>
     <dd>
-      A free, open source, cross-platform,
-      graphical web browser developed by the
-      Mozilla Corporation and hundreds of
-      volunteers.
+      A free, open source, cross-platform
     </dd>
   </dl>
 </html-display>
