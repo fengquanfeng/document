@@ -4,8 +4,8 @@
 
 ## 有序列表
 
-`<ol>`包含一个或多个`<li>`元素。这些`<li>`元素可以再包含嵌套的`<ol>`或`<ul>`元素。  
-也就是说`<ol>`内只能是`<li>`，不能有其他元素
+`<ol>` 包含一个或多个 `<li>` 元素。这些 `<li>` 元素可以再包含嵌套的 `<ol>` 或 `<ul>` 元素。  
+也就是说 `<ol>` 内只能是 `<li>` ，不能有其他元素
 
 ```html
 <ol type="a" start="3">
@@ -20,17 +20,20 @@
   <li>列表2</li>
 </ol>
 ```
+
 输出:
-<ol type="a" start="3">
-  <li>列表1</li>
-  <li>子列表
-    <ol start="2">
-      <li>--列表</li>
-      <li>--列表</li>
-    </ol>
-  </li>
-  <li>列表2</li>
-</ol>
+<html-display>
+  <ol type="a" start="3">
+   <li>列表1</li>
+   <li>子列表
+     <ol start="2">
+       <li>--列表</li>
+       <li>--列表</li>
+     </ol>
+   </li>
+   <li>列表2</li>
+  </ol>
+</html-display>
 
 ---
 
@@ -42,13 +45,13 @@ type 属性制定编号类型：
 - 'I' 表示大写罗马数字编号,
 - '1' 表示数字编号（默认值）
 
-不过涉及到"显示效果"，还是建议通过 CSS list-style-type 来设定。其实本质上`<ol>`的编号也是来资源UA默认设定的list-style-type
+不过涉及到"显示效果"，还是建议通过 CSS list-style-type 来设定。其实本质上 `<ol>` 的编号也是来资源 UA 默认设定的 list-style-type
 
 start 属性来修改编号起始值，属性值是数字，即便你的列表想从字母 b 开始，start 值也应该是 2（start="2"）
 
 ## 无序列表
 
-相比于有序列表，`<ul>`无序列表使用更加广泛。
+相比于有序列表， `<ul>` 无序列表使用更加广泛。  
 
 ```html
 <ul>
@@ -57,15 +60,19 @@ start 属性来修改编号起始值，属性值是数字，即便你的列表�
   <li>列表3</li>
 </ul>
 ```
+
 输出：
-<ul>
-  <li>列表1</li>
-  <li>列表2</li>
-  <li>列表3</li>
-</ul>
+<html-display>
+  <ul>
+    <li>列表1</li>
+    <li>列表2</li>
+    <li>列表3</li>
+  </ul>
+</html-display>
 
 ---
-你可以通过给 `<ul>` 设置 list-style-type 来达到跟`<ol>`同样的效果。
+
+你可以通过给 `<ul>` 设置 list-style-type 来达到跟 `<ol>` 同样的效果。
 
 ```html
 <ul style="list-style-type:decimal;">
@@ -74,40 +81,39 @@ start 属性来修改编号起始值，属性值是数字，即便你的列表�
   <li>列表3</li>
 </ul>
 ```
+
 输出：
-<ul style="list-style-type:decimal;">
-  <li>列表1</li>
-  <li>列表2</li>
-  <li>列表3</li>
-</ul>
+<html-display>
+  <ul style="list-style-type:decimal; ">
+    <li>列表1</li>
+    <li>列表2</li>
+    <li>列表3</li>
+  </ul>
+</html-display>
 
 ## 描述列表
 
-`<dl>`的内容是零个或多个组，每个组由一个或多个`<dt>`元素，后跟一个或多个`<dd>`元素组成。
+`<dl>` 的内容是零个或多个组，每个组由一个或多个 `<dt>` 元素，后跟一个或多个 `<dd>` 元素组成。
 
 ```html
 <!-- 单条语句单条描述 -->
 <dl>
   <dt>Firefox</dt>
   <dd>
-    A free, open source, cross-platform,
-    graphical web browser developed by the
-    Mozilla Corporation and hundreds of
-    volunteers.
+    A free, open source, cross-platform
   </dd>
 </dl>
 ```
-输出：
-<dl>
-  <dt>Firefox</dt>
-  <dd>
-    A free, open source, cross-platform,
-    graphical web browser developed by the
-    Mozilla Corporation and hundreds of
-    volunteers.
-  </dd>
-</dl>
 
+输出：
+<html-display>
+  <dl>
+    <dt>Firefox</dt>
+    <dd>
+      A free, open source, cross-platform
+    </dd>
+  </dl>
+</html-display>
 
 ```html
 <!-- 多条语句单条描述 -->
@@ -116,22 +122,22 @@ start 属性来修改编号起始值，属性值是数字，即便你的列表�
   <dt>Mozilla Firefox</dt>
   <dt>Fx</dt>
   <dd>
-    A free, open source, cross-platform,
-    graphical web browser developed by the
-    Mozilla Corporation and hundreds of
-    volunteers.
+    A free, open source, cross-platform
   </dd>
 </dl>
 ```
+
 输出：
-<dl>
-  <dt>Firefox</dt>
-  <dt>Mozilla Firefox</dt>
-  <dt>Fx</dt>
-  <dd>
-    A free, open source, cross-platform,
-    graphical web browser developed by the
-    Mozilla Corporation and hundreds of
-    volunteers.
-  </dd>
-</dl>
+<html-display>
+  <dl>
+    <dt>Firefox</dt>
+    <dt>Mozilla Firefox</dt>
+    <dt>Fx</dt>
+    <dd>
+      A free, open source, cross-platform,
+      graphical web browser developed by the
+      Mozilla Corporation and hundreds of
+      volunteers.
+    </dd>
+  </dl>
+</html-display>

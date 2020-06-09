@@ -17,10 +17,6 @@ module.exports = {
       { text: 'GitHub', link: 'https://github.com/fengquanfeng/document' },
     ],
     sidebar: [
-      // {
-      //   title: '关于本站',
-      //   path: '/about'
-      // },
       {
         title: 'HTML',
         path: '/html/',
@@ -50,6 +46,12 @@ module.exports = {
       {
         title: 'JavaScript',
         path: '/javascript/',
+        children: [
+        ]
+      },
+      {
+        title: 'DOM',
+        path: '/dom/',
         children: [
         ]
       },
