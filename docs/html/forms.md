@@ -70,11 +70,12 @@
 | text       | 普通文本框                   | <input type="text" placeholder="就是普通的文本框">  |
 | password       | 密码框                   | <input type="password">  |
 | checkbox   | 允许选择/取消单个值的复选框    | <input type="checkbox" >点方框选中/再点取消选中  |
+| radio   | 单选框，允许在多个拥有相同 name 值的选项中选中其中一个。添加checked属性，可以让这一项默认选中    | <input type="radio" name="sex" checked >男<input type="radio"  name="sex" >女  |
 | color      | 颜色控件                     |         <input type="color" >        |
 |  date      | 年、月、日的日期控件          |   <input type="date">            |
 | datetime-local |  年、月、日、时、分的日期时间控件。如果要修改value，要用yyyy-MM-ddThh:mm的格式。而且你可以设定选择范围：min=""和max=""   |            <input type="datetime-local" min="2020-01-01T00:00"  max="2030-12-31T23:59">                           |
 |  email  |    编辑邮箱的区域，据说如果浏览器支持的话还会自动验证邮箱格式。  |<input type="email">      |
-|            |                             |                                     |
+|  file     |                             |                                     |
 |            |                             |                                     |
 |            |                             |                                     |
 |            |                             |                                     |
